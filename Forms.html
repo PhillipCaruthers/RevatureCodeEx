@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>  
+        <title>Sci-Fi Breakthroughs</title>
+        <link rel="stylesheet" href="CSSForms.css">
+    </head>
+    <body>
+        <form action="/test" target="_blank" method="get" name="Users">
+            <label>What are some good sci-fi inventions?</label>
+            <input type="text" name="First Name" size="15"/> <br/>
+
+            <label>Last Name</label>
+            <input type="text" name="Last Name" size="15"/> <br/>
+
+            <label>Age</label>
+            <input type="number" name="Age"/> <br/>
+
+            <label>Password</label>
+            <input type="password" name="Password"/> <br/>
+
+            <label>Gender</label> <br/>
+            <input type="radio" name="Gender" id="Male"/>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Female"/>
+            <label for="Female">Female</label> <br/>
+
+            <label>Hobbies</label> <br/>
+            <input type="checkbox" name="Hobbies"/> Eat
+            <input type="checkbox" name="Hobbies"/> Sleep
+            <input type="checkbox" name="Hobbies"/> Breathe <br/><br/>
+
+            <label for="fileselect">Upload</label>
+            <input type="file"/> <br/><br/>
+            
+            Comments?
+            <label for="comments"></label> <br/>
+            <textarea rows="5" cols="20" name="Comments"></textarea> <br/>
+
+            Month
+            <select name="Month">
+                <option value=""></option>
+                <option value="Oct">October</option>
+                <option value="Nov">November</option>
+                <option value="Dec">December</option>
+            </select> <br/>
+
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+        </form>
+    
+    </body>
+</html>
