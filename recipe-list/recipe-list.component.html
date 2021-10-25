@@ -1,0 +1,30 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      <h2>Recipe List</h2>
+    </div>
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Recipe Name</th>
+            <th>Recipe Ingredients</th>
+            <th>Recipe Description</th>
+            <th>What would you like to do?</th>
+            <th>Recipe Image</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let recipe of recipes | async">
+            <td>{{recipe.recipeName}}</td>
+            <td>{{recipe.recipeIng}}</td>
+            <td>{{recipe.recipeDesc}}</td>
+            <td>
+            <button (click)="updateRecipe(recipe.id)" class="btn btn-info" style="margin-left: 10px">Update</button> 
+            <button (click)="recipeDetails(recipe.id)" class="btn btn-info" style="margin-left: 10px">Details</button>
+            <button (click)="deleteRecipe(recipe.id)" class="btn btn-danger">Delete</button>
+            </td> 
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>

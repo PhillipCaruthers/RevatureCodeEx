@@ -1,0 +1,32 @@
+{
+  "Recipes": [
+    {
+      "id": 1,
+      "recipeName": "Apple Pie",
+      "recipeIng": "Apples, Pies",
+      "recipeDesc": "Apple Pie is America's favorite, with flaky crust and gooey delicious apples, what's not to love?",
+      "recipeImage": "ApplePie.png"
+    },
+    {
+      "id": 2,
+      "recipeName": "Meatloaf",
+      "recipeDesc": "Truly a staple of the American Dream, this dish is savory and filling!"
+    },
+    {
+      "recipeName": "Lasanga",
+      "recipeDesc": "Just like meatloaf, but with cheese",
+      "id": 3
+    },
+    {
+      "recipeName": "Updated Recipe Test",
+      "recipeDesc": "Updated Description Test",
+      "id": 5,
+      "recipeIng": "Updated ingredients"
+    },
+    {
+      "recipeName": "Chocolate Cake",
+      "recipeDesc": "Craving something sweet? Enjoy this delicious cake.",
+      "id": 6
+    }
+  ]
+}
